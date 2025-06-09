@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - My Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f2f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #005fa3;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .project-card h3 {
+      margin-top: 0;
+      color: #0077cc;
+    }
+
+    .project-card p {
+      font-size: 15px;
+    }
+
+    .project-card a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #005fa3;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .project-card a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #0077cc;
+      color: white;
+      padding: 10px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Projects</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="About.html">About Me</a>
+    <a href="EduBack.html">Edu Background</a>
+    <a href="Project.html">Projects</a>
+    <a href="Contact.html">Contact</a>
+  </nav>
+
+  <div class="container">
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Tender Management System</h3>
+        <p>A full-featured web-based platform with separate portals for admins, consultants, and clients. Built to streamline bidding processes for Baraka Ltd.</p>
+        <a href="#">View Details</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Personal Portfolio Website</h3>
+        <p>A clean and simple website (this one!) that showcases who I am, my background, projects, and contact info — all built using just HTML and CSS.</p>
+        <a href="#">View Code</a>
+      </div>
+
+      <div class="project-card">
+        <h3>School Fee Payment App (Prototype)</h3>
+        <p>A concept app for managing school fees, built as a UI/UX prototype using HTML mockups to demonstrate real-time balance and payment records.</p>
+        <a href="#">View Prototype</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Student Registration Portal (Front-End)</h3>
+        <p>A simulated university student portal with registration form, login interface, and profile page, built for practice in HTML and CSS layout design.</p>
+        <a href="#">Live Demo</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 My Portfolio Website
+  </footer>
+
+</body>
+</html>
